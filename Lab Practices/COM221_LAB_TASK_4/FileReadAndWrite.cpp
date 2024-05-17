@@ -18,7 +18,7 @@ int main(){
 
     cout<<"Enter your age:";
     cin>>data;
-    cin.ignore();
+//    cin.ignore();
 
     //again write inputted data into the text file
     outfile<<data<<endl;
