@@ -6,8 +6,8 @@ int main(){
     char data[100];
 
     //open a text file in write mode
-    ofstream outfile("stephano.txt", ios::in | ios::out);
-    outfile.open("stephano.text");
+    ofstream outfile("myfile.txt", ios::in | ios::out);
+    outfile.open("myfile.text");
 
     cout<<"Writing to a file"  <<endl;
     cout<<"Enter your name: ";
@@ -26,7 +26,7 @@ int main(){
 
     //open the text file in read mode
     ifstream infile;
-    infile.open("stephano.txt");
+    infile.open("myfile.txt");
 
     //reading from the file
     cout<<"Reading from the file:"<<endl;

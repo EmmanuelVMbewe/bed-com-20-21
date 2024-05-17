@@ -7,7 +7,7 @@ int main(){
     streampos size;
     char * memblock;
 
-    ifstream file("stephano.bin", ios::in | ios::binary | ios::ate);
+    ifstream file("myfile.bin", ios::in | ios::binary | ios::ate);
     if(file.is_open()){
         size = file.tellg();
         memblock = new char [size];

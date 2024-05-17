@@ -7,7 +7,7 @@ int main(){
     streampos begin;
     streampos end;
 
-    ifstream myfile("stephano.bin", ios::binary);
+    ifstream myfile("myfile.bin", ios::binary);
     begin = myfile.tellg();
     myfile.seekg (0, ios::end);
     end = myfile.tellg();

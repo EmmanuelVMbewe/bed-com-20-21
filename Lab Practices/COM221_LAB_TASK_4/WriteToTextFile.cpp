@@ -4,9 +4,9 @@
 using namespace std;
 
 int main(){
-    ofstream MyFile("bsc-inf-12-20.txt");
+    ofstream MyFile("myfile.txt");
     if(MyFile.is_open()){
-        MyFile<<"My name is Stephano Kachingwe. \n";
+        MyFile<<"some text. \n";
         MyFile<<"I am a Student at UNIMA. \n";
         MyFile.close();
     }

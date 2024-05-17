@@ -6,7 +6,7 @@ using namespace std;
 int main(){
    string line;
 
-    ifstream MyFile("bsc-inf-12-20.txt");
+    ifstream MyFile("myfile.txt");
 
     if(MyFile.is_open()){
         while(getline(MyFile, line)){
